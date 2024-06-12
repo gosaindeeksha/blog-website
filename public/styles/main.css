@@ -1,0 +1,138 @@
+body{
+    background-color:#F9F7F7 ;
+}
+/*header css*/
+.navbar-brand{
+    position: relative;
+    left: 45%;
+    font-size: 2.5rem;
+    color: #DBE2EF;
+    font-weight: 700;
+    font-family: serif;
+}
+nav{
+    background-color: #112D4E;
+}
+
+.nav-link{
+    color: #F9F7F7;
+}
+#HOME{
+    position: absolute;
+    left:5%;
+    font-size: x-large;
+    top: 13%;
+}
+#ABOUT{
+    position: absolute;
+    left: 20%;
+    font-size: x-large;
+    top: 13%;
+}
+#COMPOSE{
+    position: absolute;
+    right: 20%;
+    font-size: x-large;
+    top: 13%;
+}
+#CONTACT{
+ position: absolute;
+ right:5%;
+ font-size: x-large;
+ top: 13%;
+}
+
+.navbar-nav{
+    width: 100vb;
+}
+@media only screen and (max-width: 992px) {
+    .navbar-brand{
+        left: 5%;
+    }
+    #HOME{
+        position: static;
+        padding-left:30%;
+
+    }
+    #ABOUT{
+        position: static;
+        padding-left:28%;
+    }
+    #COMPOSE{
+        position: static;
+        padding-left:28.25%;
+    }
+    #CONTACT{
+        position: static;
+        padding-left:27%;
+    }
+
+}
+/*page css*/
+h1{
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family: "PT Serif", serif;
+    color: #3F72AF;
+}
+p{
+    color: #112D4E;
+    text-wrap: pretty;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+form{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.btn-dark{
+    background-color: #112D4E;
+    color: #F9F7F7;
+    margin-top: 1%;
+}
+.btn-dark:hover{
+background-color: #3F72AF;
+}
+label{
+    color: #112D4E;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    font-weight: 500;
+}
+hr{
+    width:95%;
+     height: 3px;
+      color:#DBE2EF;
+      margin-left: 2%;
+}
+
+/*contact us*/
+h4{
+    color:#112D4E!important;
+    font-weight: 500;
+}
+#contact-cont{
+    margin-top: 5%
+}
+h3{
+   
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family: "PT Serif", serif;
+    color:#112D4E;
+    font-weight: 500;
+}
+.postlink{
+    padding-left: 2%;
+    text-decoration: none;
+    color: #3F72AF;
+}
+.postathome{
+    border-bottom:#DBE2EF 1px ;
+}
+.poform{
+    display: inline-block;
+    margin-top: 10%;
+}

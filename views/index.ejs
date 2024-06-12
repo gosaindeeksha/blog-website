@@ -1,0 +1,22 @@
+<%- include("partials/header.ejs") %>
+<h1>HOME</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, ipsam. Consequuntur nam quas adipisci suscipit neque libero explicabo veritatis dicta tenetur totam minima reprehenderit, voluptates, amet at maiores corporis hic.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dolorem a dolore, nihil laborum exercitationem numquam odit nobis, quis vel consequatur et inventore. Cupiditate, tempore blanditiis? Ab eligendi adipisci ullam!
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus libero id vitae ad placeat ipsum quasi neque? Corrupti velit assumenda, maiores voluptate sint suscipit. Quas sit cum explicabo itaque sunt?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, libero voluptate. Veniam nulla dolorem aliquam ex labore ut nam non delectus quidem minima laudantium aut voluptatum officiis, ipsa incidunt voluptatem.
+</p>
+<% if(posts.length>0){ %>
+    <h1>POSTS</h1>
+    <hr  noshade>
+
+    <% posts.forEach(el=> {%>
+        
+       <div class="postathome">
+        <h3><%= el.title.toUpperCase() %></h3>
+        <p><%= el.content.substring(0,10) %>...</p>
+        <a href="/posts/<%= el.id %>" class="postlink">Read More </a>
+    </div>
+       <%  });  %> 
+    
+    <% }%>
+<%-include("partials/footer.ejs")  %>
